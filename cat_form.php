@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="./script/style.css" />
 </head>
 <body class="bgimg">
-<h1 class="abc">ประเภทสินค้า</h1>
-    <?php
+<?php
       include "navbar.php";
     ?>
+<div class="container-fluid">
+<h1 class="abc">ประเภทสินค้า</h1>
+
 
     <form action="cat_insert.php" method="post"  enctype="multipart/form-data">
        ประเภทสินค้า

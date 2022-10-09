@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="./script/style.css" />
 </head>
 <body class="bgimg">
-    <h1 class="abc">ให้บริการ </h1>
-
-    <?php
+<?php
       include "navbar.php";
     ?>
+<div class="container-fluid">
+    <h1 class="abc">ให้บริการ </h1>
+
+
+        <img src="./images/picture4.jpg" height="300px" />
+        <h2 class="abc">บริการซีลสุญญากาศ ไร้กลิ่น</h2>
 
 </body>
 </html>

@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+<div class="container-fluid">
    <?php
      include "connect.php";
 

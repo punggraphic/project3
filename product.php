@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,17 @@
 </head>
 
 <body class="bgimg">
-    <h1 class="abc">สินค้า</h1>
-    
     <?php
       include "navbar.php";
     ?>
-    <?php
+    <div class="container-fluid">
+        <h1 class="abc">สินค้า</h1>
+
+
+        <?php
        include "product_select.php";
     ?>
-    
+
 </body>
+
 </html>

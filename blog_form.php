@@ -10,10 +10,12 @@
 </head>
 
 <body class="bgimg">
-<h1 class="abc">Blogs</h1>
-    <?php
+<?php
        include "navbar.php";
     ?>
+<div class="container-fluid">
+<h1 class="abc">Blogs</h1>
+
 
     <form action="blog_insert.php"  method="post" enctype="multipart/form-data" >
        หัวเรื่อง <input type="text" name="title" /> <br/>

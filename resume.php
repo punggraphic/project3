@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="./script/style.css" />
 </head>
 <body class="bgimg">
+<?php
+      include "navbar.php";
+    ?>
 
     <h1 class="abc">ผู้จัดทำ</h1>
 
-    <?php
-      include "navbar.php";
-    ?>
+
     
     
 </body>

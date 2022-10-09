@@ -9,19 +9,22 @@
     <link rel="stylesheet" href="./script/style.css" />
 </head>
 
-<body>
-    <?php
+<body class="bgimg">
+<?php
       include "navbar.php";
     ?>
-    <h1> Login </h1>
+    <div class="container-fluid">
+        <h1 class="abc"> Login </h1>
 
-    <form action="login.php" method="post" enctype="multipart/form-data">
-        Email :
-        <input type="text" name="email" /> <br />
-        Password :
-        <input type="password" name="password" /> <br />
-        <input type="submit" value="เข้าสู่ระบบ" />
-    </form>
+
+
+        <form action="login.php" method="post" enctype="multipart/form-data">
+            Email :
+            <input type="text" name="email" /> <br />
+            Password :
+            <input type="password" name="password" /> <br />
+            <input type="submit" value="เข้าสู่ระบบ" />
+        </form>
 
 </body>
 

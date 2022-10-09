@@ -9,7 +9,7 @@
 </head>
 
 <body>
-
+<div class="container-fluid">
 <?php
    include "connect.php";
    $sql = "SELECT * FROM tbl_blogs";    //ดึงข้อมูลทั้งหมด tbl_blogs

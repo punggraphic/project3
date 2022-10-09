@@ -10,17 +10,19 @@
 </head>
 
 <body class="bgimg">
-
-    <h1 class="abc"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </h1>
-    
     <?php
        include "navbar.php";
     ?>
+    <div class="container-fluid">
+        <h1 class="abc"> ยินดีต้อนรับเข้าสู่เว็บไซต์ </h1>
 
-    <p class="border bg-white">
-        i am ปลาเค็ม จำหน่ายปลาอินทรีย์เค็ม และ ปลากุเลาเค็ม 
-    </p>
+        <p class="border bg-white">
+            <marquee direction="up" style="color: #3498DB; font-size: 40px;">i am ปลาเค็ม จำหน่ายปลาอินทรีย์เค็ม และ
+                ปลากุเลาเค็ม</marquee>
+        </p>
 
+        <img src="./images/picture0.jpg" height="500px" />
+    </div>
     <?php
       include "hello.php";
     ?>

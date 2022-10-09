@@ -10,10 +10,12 @@
 </head>
 
 <body class="bgimg">
-<h1 class="abc">เพิ่มสินค้า</h1>
-    <?php
+<?php
        include "navbar.php";
     ?>
+<div class="container-fluid">
+<h1 class="abc">เพิ่มสินค้า</h1>
+
 
     <form action="product_insert.php" method="post" enctype="multipart/form-data"><br />
         ชื่อสินค้า <input type="text" name="name" /><br />

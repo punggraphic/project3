@@ -10,12 +10,12 @@
 </head>
 
 <body class="bgimg">
-    <h1 class="abc">เกี่ยวกับเรา</h1>
- 
-    <?php
+<?php
        include "navbar.php";
     ?>
-
+        <div class="container-fluid">
+    <h1 class="abc">เกี่ยวกับเรา</h1>
+ 
     <img src="./images/picture1.jpg" height="300px" />
     <img src="./images/picture2.jpg" height="300px" />
     <img src="./images/picture3.jpg" height="300px" />
