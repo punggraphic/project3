@@ -10,7 +10,7 @@
 </head>
 
 <body class="bgimg">
-    <h1 class="abc">ติดต่อเรา</h1>
+    <h1 class="abc">ติดต่อเรา (แผนที่)</h1>
 
     <?php
       include "navbar.php";
