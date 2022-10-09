@@ -16,9 +16,9 @@
        include "navbar.php";
     ?>
 
-    <img src="./images/picture1.jpg" height="200px" />
-    <img src="./images/picture2.jpg" height="200px" />
-    <img src="./images/picture3.jpg" height="200px" />
+    <img src="./images/picture1.jpg" height="300px" />
+    <img src="./images/picture2.jpg" height="300px" />
+    <img src="./images/picture3.jpg" height="300px" />
 
 </body>
 
